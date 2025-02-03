@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/React-To-Do-List-App/',
   plugins: [react()],
-})
+  base: "/React-To-Do-List-App/", // Replace 'your-repo-name' with your actual repository name
+});
